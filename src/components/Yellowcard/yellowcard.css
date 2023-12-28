@@ -5,7 +5,6 @@
     width: 327px;
     height: 442px;
     flex-shrink: 0;
-    border-radius: 8px;
     padding: 48px 0 0 49px;
 }
 .yellow{
@@ -16,6 +15,15 @@
 }
 .blue{
     background-color: #004140;
+}
+.yellow-text{
+    color: #E28625;
+}
+.green-text{
+    color: #006971;
+}
+.blue-text{
+    color: #004140;
 }
 .textbox{
     display: flex;
@@ -50,8 +58,8 @@ button{
     flex-shrink: 0;
     border-radius: 25px;
     background: #F2F2F2;
-    color: #E28625;
-    font-family: 'Lexend Deca';
+    color: rgba(226, 134, 37, 0);
+    font-family: 'Lexend Deca'; 
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -61,4 +69,4 @@ button:hover{
     background-color: transparent;
     border: 2px solid #FFF;
     color: #FFF;
-}
+} 

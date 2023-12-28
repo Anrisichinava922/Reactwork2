@@ -1,6 +1,6 @@
 import './yellowcard.css'
 
-const Yellowcard = ({ description , name , imgSrc , bgColor ,}) => {
+const Yellowcard = ({ description , name , imgSrc , bgColor , buttonTxtColor}) => {
   return (
     <div className={`yellow-card ${bgColor}`}>
       <header>
@@ -9,10 +9,10 @@ const Yellowcard = ({ description , name , imgSrc , bgColor ,}) => {
       <div className="textbox">
         <h1>{name}</h1>
         <h2>{description}</h2>
-        <button>Learn More</button>
+        <button className={`${buttonTxtColor}`}>Learn More</button>
       </div>
     </div>
   )
 }
 
-export default Yellowcard
+export default Yellowcard 
