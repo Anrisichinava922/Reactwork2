@@ -26,10 +26,14 @@
 @media (width > 1440px){
     .main{
         padding-top: 0;
-        height: 100vh;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        height: 100vh;
+    }
+    .border-radius{
+        display: flex;
+        flex-direction: row;
     }
 }
